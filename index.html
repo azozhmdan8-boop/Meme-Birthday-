@@ -7,7 +7,6 @@
     <title>ميلاد منون 🎀</title>
     <style>
         body { 
-            /* خلفية الموقع المليئة بالرسومات */
             background-image: url('https://i.postimg.cc/mDgvQQqQ/IMG-5255.jpg'); 
             background-size: cover;
             background-position: center;
@@ -27,30 +26,24 @@
             margin: 0 auto; 
             box-shadow: 0 10px 30px rgba(255, 105, 180, 0.5); 
         }
-        .icons { font-size: 35px; margin-bottom: 15px; }
-        .page { display: none; line-height: 1.8; }
+        .page { display: none; }
         .active { display: block; }
         button { background: #ff69b4; color: white; border: none; padding: 12px 25px; border-radius: 25px; cursor: pointer; font-size: 16px; margin: 5px; transition: 0.3s; }
-        button:hover { transform: scale(1.05); background: #ff85c1; }
+        button:hover { background: #ff85c1; }
         img { width: 100%; height: 250px; object-fit: cover; border-radius: 20px; margin: 10px 0; border: 3px solid #ffd1dc; }
-        h1 { color: #ff69b4; }
-        .age-text { font-size: 1.2em; font-weight: bold; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <div class="icons">🎀 🧸 🍒 🍓 🐱</div>
-
     <div id="page1" class="page active">
         <h1>Happy Birthday Meme 🎂</h1>
-        <p class="age-text">يوم ميلادك الـ 17.. وما زال قلبي ينبض بك ❤️</p>
-        <p>كل عام وانتي بخير يا حبيبة ووحيدة قلبي يا أعز إنسان. بالنسبة لي اليوم أعظم يوم بالدنيا، ميلاد "منون". السعادة تغمرني أشوف أحب إنسان يكبر كل سنة معاي..</p>
+        <p>يوم ميلادك الـ 17.. وما زال قلبي ينبض بك ❤️</p>
         <button onclick="showPage(2)">اللحظات الجميلة 💖</button>
     </div>
 
     <div id="page2" class="page">
-        <h2>Our moments 💖</h2>
+        <h2>اللحظات الجميلة 💖</h2>
         <img src="https://i.postimg.cc/nhHCQLZS/D6E4CDDD-BF33-4012-A346-1D6A67BD369C.jpg">
         <br>
         <button onclick="showPage(1)">الرجوع 🔙</button>
@@ -66,8 +59,7 @@
 
     <div id="page4" class="page">
         <h2>I love you 🎀</h2>
-        <p>اعذريني على الهدية البسيطة، أحبك مره والله.</p>
-        <p><strong>- عزوزك.</strong></p>
+        <p>أحبك مره والله.. - عزوزك.</p>
         <button onclick="showPage(3)">الرجوع 🔙</button>
     </div>
 </div>
